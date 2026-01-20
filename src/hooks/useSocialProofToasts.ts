@@ -14,7 +14,7 @@ export const useSocialProofToasts = (enabled: boolean = true) => {
     if (!enabled) return;
 
     // Show first toast after 15-25 seconds
-    const initialDelay = Math.random() * 10000 + 15000;
+    const initialDelay = Math.random() * 30000 + 270000;
     
     const showRandomToast = () => {
       const country = getRandomCountry();
@@ -42,7 +42,7 @@ export const useSocialProofToasts = (enabled: boolean = true) => {
       // Then show every 20-40 seconds
       intervalRef.current = setInterval(() => {
         showRandomToast();
-      }, Math.random() * 20000 + 20000);
+      }, Math.random() * 60000 + 270000);
     }, initialDelay);
 
     return () => {
