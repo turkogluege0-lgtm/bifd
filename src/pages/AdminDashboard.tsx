@@ -79,7 +79,7 @@ const AdminDashboard = () => {
 
   // Security middleware - redirect non-admins immediately
   useEffect(() => {
-    if (false) {
+    if (!roleLoading && !isAdmin) {
       toast.error('⛔ Unauthorized Access. Admins only.');
       navigate('/');
     }
