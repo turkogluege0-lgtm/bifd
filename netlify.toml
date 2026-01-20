@@ -1,0 +1,10 @@
+# Netlify Build Settings
+# Build command: npm run build
+# Publish directory: dist
+# Node version: 18
+
+# Redirects for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
