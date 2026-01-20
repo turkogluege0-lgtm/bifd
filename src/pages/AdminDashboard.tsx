@@ -41,7 +41,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 
 // System admin ID - full bypass
-const SYSTEM_ADMIN_ID = '4243c72f-51b2-4005-ae1e-b85cb3273a0f';
+const SYSTEM_ADMIN_ID = '3c016520-94b7-4728-895b-2ec398cb70e5';
 
 interface UserData {
   id: string;
