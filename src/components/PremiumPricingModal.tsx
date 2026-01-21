@@ -82,7 +82,7 @@ export const PremiumPricingModal = ({ isOpen, onClose, onCheckout, message }: Pr
 
           {/* Price */}
           <div className="text-center mb-6">
-            <span className="text-5xl font-bold gradient-text">$19</span>
+            <span className="text-5xl font-bold gradient-text">$49</span>
             <span className="text-muted-foreground text-lg"> / month</span>
           </div>
 
