@@ -58,7 +58,7 @@ export const CheckoutModal = ({ isOpen, onClose }: CheckoutModalProps) => {
               <div className="mb-6 p-4 rounded-xl bg-primary/10 border border-primary/30">
                 <div className="flex items-center justify-between">
                   <span className="font-medium">Pro Studio</span>
-                  <span className="text-2xl font-bold gradient-text">$19/mo</span>
+                  <span className="text-2xl font-bold gradient-text">$49/mo</span>
                 </div>
               </div>
 
