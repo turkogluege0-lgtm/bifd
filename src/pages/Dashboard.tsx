@@ -23,7 +23,7 @@ import { useSocialProofToasts } from '@/hooks/useSocialProofToasts';
 import { useUserRole } from '@/hooks/useUserRole';
 import { toast } from 'sonner';
 
-const FORMSPREE_URL = 'https://formspree.io/f/xgooeojq';
+const FORMSPREE_URL = 'https://formspree.io/f/xzddwrla';
 const TIMER_DURATION = 60;
 
 const Dashboard = () => {
